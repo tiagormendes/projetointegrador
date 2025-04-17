@@ -1,0 +1,382 @@
+/* Estilos gerais do corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do banner de cookies */
+.cookie-banner {
+    position: fixed;
+    bottom: -100px;  
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    animation: slide-up 0.5s ease-out forwards; /* Animação para descer */
+}
+
+/* Estilo do "label" que serve de botão */
+.cookie-banner label {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.cookie-banner label:hover {
+    background-color: #45a049;
+}
+
+/* Animação: deslizar o banner para cima */
+@keyframes slide-up {
+    from {
+        bottom: -200px;  /* Começa fora da tela */
+    }
+    to {
+        bottom: 0;  /* Vai para a posição final */
+    }
+}
+
+/* Quando o checkbox for marcado, esconder o banner */
+#aceitar-cookies:checked ~ .cookie-banner {
+    display: none;
+}
+
+#aceitar-cookies {
+    display: none; /* Escondido, mas usado para controlar a aceitação */
+}
+
+
+.ben{
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    color: #2ecc71;
+    animation: slideIn 1.5s ease-out;
+}
+
+.adicionais {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.adicionais:hover {
+    transform: scale(1.3); 
+    background-color: #45a04900; 
+}
+
+.footerzx {
+    bottom: 0;
+}
+.bnz{
+    font-size: 100px;
+    background: border-box;
+    color: #fefcfc;
+    font-size: 100px;
+    color: #ffffff;
+    text-shadow: 
+        1px 9px 0 rgb(52, 82, 255),
+        2px 2px 0 rgb(0, 0, 0),
+        3px 3px 0 rgb(0, 0, 0),
+        4px 4px 0 rgba(0, 0, 0, 0.5),
+        5px 5px 0 rgba(0, 0, 0, 0.5);
+
+}
+.text{
+    font-size: 100px;
+    background: border-box;
+    color: #fefcfc;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 
+        5px 5px 0 rgba(121, 107, 107, 0),
+        2px 2px 0 rgba(0, 0, 0, 0),
+        3px 3px 0 rgba(0, 0, 0, 0.815),
+        4px 4px 0 rgba(0, 0, 0, 0),
+        5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+.butaocor{
+    color: #f1ebeb;
+}
+.cordafonte{
+    color: #29a129;
+    font-weight: bolder;
+}
+.gif{
+    margin: 200px;
+}
+
+.buttonfooter{
+    padding: 5px 10px;
+    background-color: #fd0d09;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 500px;
+    font-weight: bold;
+}
+.footerzx{
+    background: center;
+    background-image:('https://img.freepik.com/vetores-gratis/fundo-hexagonal-escuro-com-cor-gradiente_79603-1409.jpg') ;
+    margin: 10px;
+}
+.colort{
+    background-color: #001f6100;
+    color: rgba(255, 255, 255, 0);
+}
+
+.h1{
+    font-size: 90px;
+    color: #1bdc3b;
+}
+
+.imagem-com-borda {
+    border: 10px solid #3705ff; /* Borda de 5px, cor preta */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+/* Estilos gerais */
+body {
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header .logo h1 {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+
+section {
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fd0d09;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #3234a3;
+
+}
+
+/* Benefícios */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.card {
+    background-color: #003afa63;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 4, 255);
+    width: 30%;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 20%;
+}
+
+.card p {
+    font-size: 16px;
+    color: #0909f1;
+}
+
+/* Depoimentos */
+.depoimento {
+    background-color: #313131;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(0, 38, 255);
+    text-align: center;
+}
+
+.depoimento p {
+    font-style: italic;
+    color: #5bca11;
+}
+
+.depoimento span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #0400ff;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #3262ff;
+    color: rgb(150, 33, 33);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff0202;
+}
+
+.ben{
+    font-size: 100px;
+    background: border-box;
+    color: #fefcfc;
+    font-size: 100px;
+    color: #fff;
+    text-shadow: 
+        5px 5px 0 rgba(0, 0, 0, 0.788),
+        2px 2px 0 rgba(0, 0, 0, 0.5),
+        3px 3px 0 rgba(0, 0, 0, 0.5),
+        4px 4px 0 rgba(0, 0, 0, 0.5),
+        5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.wwe {
+    background: url('https://depositphotos-blog.s3.eu-west-1.amazonaws.com/uploads/2021/01/Practical-Tips-on-How-to-Use-GIFs-and-Video-Loops-in-Your-Projects_1.gif');
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #f7f7f7da;
+    margin: 8;
+    background-size: cover;
+  background-position: center; 
+    text-align: center;
+}
+   body {
+       font-family: Arial, sans-serif;
+       background-color: #f7f7f7;
+       line-height: 90px;
+       background: padding-box;
+   }
+   
+   /* ===========================
+      3. Menu de Navegação
+      =========================== */
+   .menu {
+       background-color: #424242;
+       color: rgb(255, 255, 255);
+       justify-content: 10px;
+       align-items: center;
+       position: fixed;
+       width: 100%;
+       height: 110px;
+   }
+   
+   .menu .logo a {
+       font-weight: bold;
+       text-decoration: none;
+       color: rgb(160, 151, 151);
+       padding: 3px;
+   }
+   
+   .menu-list {
+       list-style: none;
+       display: flex;
+       background: center;
+   }
+   
+   .menu-list  {
+       margin-left: 50px;
+   }
+   
+   .menu-item {
+       color: rgb(0, 0, 0);
+       text-decoration: none;
+       font-size: 20px;
+       font-weight: 500;
+       padding: 10px;
+       display: flex;
+       align-items: center;
+       border-radius: 0.1px;
+       transition: background-color 0.1s ease, color 0.2s ease;
+       padding: 0.1px;
+
+   }
+   
+   /* Ícones no Menu */
+   .menu-item i {
+       margin-right: 150px;
+   }
+   
+   /* Efeito de hover */
+   .menu-item:hover {
+       background-color: #00000000;
+       color: rgb(255, 0, 0);
+       padding: 1%;
+       transform: scale(1.3);
+       
+       transition: transform 0.3s ease, background-color 0.3s ease;
+   }
+   
+   /*ajustar card*/
+   * {
+  box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    padding: 0;
+    color: #eeeeee;
+    transition: background-color 0.3s, color 0.3s;
+    transition: transform 0.5s ease; /* Transição para o movimento */
+  }
+  
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #00000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
