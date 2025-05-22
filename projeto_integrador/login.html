@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cadastro de Usuário</title>
-  <link rel="stylesheet" href="cadastrar.css">
+  <title>Login de Usuário</title>
+  <link rel="stylesheet" href="login.css">
 </head>
 <body>
   
   <div class="container">
-    <h2>Cadastro de Usuário</h2>
-    <form action="#" method="POST">
+    <h2>Login de Usuário</h2>
+    <form action="validacao.php" method="POST" id="#loginform">
       <label for="nome">Nome</label>
       <input type="text" id="nome" name="nome" required>
 
@@ -20,7 +20,7 @@
       <label for="senha">Senha</label>
       <input type="password" id="senha" name="senha" required>
 
-      <a href="" class="Voltar"></a><button>Cadastrar</button>
+      <a href="" class="Voltar"></a><button type="submit" value="login">Login</button>
       <a href="index.html" class="voltar">Voltar para a Página Inicial</a>
     </form>
   </div>
