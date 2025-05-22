@@ -6,18 +6,23 @@
   <title>Monitoramento de Cargas</title>
   <link rel="stylesheet" href="estilo.css" />
   <link rel="icon" type="image/png" href="logo.jfif"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body class="h">
   <header>
-    <nav class="menu">
-      <ul class="menu-list">
-        <li><a href="#sobre" class="menu-item"><i class="fa fa-info-circle"></i>Sobre</a></li>
-        <li><a href="#contato" class="menu-item"><i class="fa fa-envelope"></i> Contato</a></li>
-        <li><a href="#beneficios" class="menu-item"><i class="fa fa-check-circle"></i> Benefícios</a></li>
-        <li><a href="#depoimentos" class="menu-item"><i class="fa fa-users"></i> Depoimentos</a></li>
-        <li><a href="login.html" class="menu-item"><i class="fa fa-map"></i> Fazer Login</a></li>
-      </ul>
-    </nav>
+    <div>
+      <nav class="menu">
+        <ul class="menu-list">
+          <li><a href="#sobre" class="menu-item"><i class="fa fa-info-circle"></i>Sobre</a></li>
+          <li><a href="#contato" class="menu-item"><i class="fa fa-envelope"></i> Contato</a></li>
+          <li><a href="#beneficios" class="menu-item"><i class="fa fa-check-circle"></i> Benefícios</a></li>
+          <li><a href="#depoimentos" class="menu-item"><i class="fa fa-users"></i> Depoimentos</a></li>
+          <li><a href="login.php" class="menu-item"><i class="fa fa-map"></i> Fazer Login</a></li>
+          <i class="fas fa-user"></i>
+          <span>Utilizador</span>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
